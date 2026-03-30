@@ -31,7 +31,7 @@
             <div class="hero-content container">
                 <div class="badge">Moroccan AI Music Visuals</div>
                 <h1>موسيقاك تستحق أن تُرى… <br> <span class="highlight">حوّلها إلى تجربة بصرية سينمائية</span></h1>
-                <p>في <strong>LaythVisuals</strong> نحول أفكارك إلى تجربة بصرية متكاملة، من أغلفة موسيقية إلى كليبات سينمائية بالذكاء الاصطناعي، مع لمسة مستوحاة من الثقافة المغربية.</p>
+                <p>ميزانيتك محدودة لإنتاج محتوى بصري احترافي؟ <strong>LaythVisuals</strong> هو الحل. نصمم أغلفة موسيقية وكليبات سينمائية بالذكاء الاصطناعي بجودة عالية وتكلفة مناسبة، مع لمسة مستوحاة من الثقافة المغربية.</p>
                 <div class="hero-btns-wrapper">
                     <a href="#contact" class="btn-main">اتصل بنا الآن</a>
                     <a href="#portfolio" class="btn-outline">اكتشف أعمالنا</a>
@@ -57,24 +57,21 @@
 
         <section id="portfolio" class="portfolio container">
             <h2 class="section-title">نماذج أعمالنا</h2>
-            <div class="portfolio-grid">
+            <div class="portfolio-single-row">
                 <div class="work-card">
-                    <img src="img/cover1.jpg" alt="Cover Art 1">
+                    <div class="img-wrapper"><img src="img/cover1.jpg" alt="Cover Art 1" class="full-fit-img"></div>
                     <div class="work-info"><span class="work-tag">Cover Art</span></div>
                 </div>
                 <div class="work-card">
-                    <img src="img/cover2.jpg" alt="Cover Art 2">
+                    <div class="img-wrapper"><img src="img/cover2.jpg" alt="Cover Art 2" class="full-fit-img"></div>
                     <div class="work-info"><span class="work-tag">Cover Art</span></div>
                 </div>
                 <div class="work-card video-work">
-                    <img src="img/clip1.jpg" alt="Video Clip 1">
+                    <div class="vimeo-wrapper">
+                        <iframe src="https://player.vimeo.com/video/1178564787?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="Short Preview"></iframe>
+                    </div>
                     <div class="work-info"><span class="work-tag">Video Clip</span></div>
-                    <div class="play-icon"><i class="fas fa-play"></i></div>
-                </div>
-                <div class="work-card video-work">
-                    <img src="img/clip2.jpg" alt="Video Clip 2">
-                    <div class="work-info"><span class="work-tag">Video Clip</span></div>
-                    <div class="play-icon"><i class="fas fa-play"></i></div>
                 </div>
             </div>
         </section>
@@ -128,21 +125,25 @@
 
         <section id="contact" class="contact container">
             <h2 class="section-title">اتصل بنا</h2>
-            <div class="contact-box-centered">
-                <h2>Let’s Work Together</h2>
-                <p lang="en" dir="ltr">Ready to take your visuals to the next level? Let’s create something unique.</p>
-                <a href="https://wa.me/212693396613" class="wa-btn-centered" target="_blank">
-                    <i class="fab fa-whatsapp"></i> تواصل معنا عبر واتساب
-                </a>
+            <div class="contact-card-premium">
+                <div class="contact-glow"></div>
+                <div class="contact-content">
+                    <h2>هل أنت مستعد للتميز؟</h2>
+                    <p lang="en" dir="ltr">Take your artistic vision to the next level with our AI cinematic visuals. Let's create something legendary.</p>
+                    <a href="https://wa.me/212693396613" class="wa-btn-premium" target="_blank">
+                        <i class="fab fa-whatsapp"></i> تواصل معنا عبر واتساب
+                    </a>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container footer-content">
+            <img src="img/logo2.png" alt="LaythVisuals Footer Logo" class="footer-logo">
             <p>© 2026 LaythVisuals | جميع الحقوق محفوظة</p>
         </div>
     </footer>
-
+    <script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 </html>
